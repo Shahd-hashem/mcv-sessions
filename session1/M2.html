@@ -3,9 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MISR TRAVELS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #2f2a66; 
+            color: white;
+            padding: 20px;
+            text-align: left;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 30px 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            height: 200px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .card .text {
+            flex: 1;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+        }
+
+        .card .text h3 {
+            margin: 0 0 10px;
+            font-size: 16px;
+            color: #222;
+        }
+
+        .card .text p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card img {
+            width: 50%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        @media (max-width: 1000px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 700px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .card img {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
 </head>
 <body>
-    
-</body>
-</html>
+
+    <header>MISR TRAVELS</header>
+
+    <p class="intro">Why is Dahab the perfect Red Sea resort town? Let’s see the most important sights in Dahab:</p>
+
+    <div class="grid-container">
+        <div class="card">
+            <div class="text">
+                <h3>Kandariya Mahadeva Templee</h3>
+                <p>Kandariya Mahadeva Temple.</p>
+            </div>
+            <img src="download (1).jpg" alt="effel tower">
+        </div>
+
+        <div class="card">
+            <div class="text">
+                <h3>Pyramid of Khufu </h3>
+                <p> Pyramid of Khufu (Cheops) – the largest of the three pyramids at Giza
+
+🌍 One of the Seven Wonders of the Ancient World.</p>
+            </div>
+            <img src="download.jpg" alt="effel tower">
+        </div>
+
+        <div class="card">
+            <div class="text">
+                <h3>Climbing destinations</h3>
+                <p>Popular rock climbing spots in Dahab, like Wadi Gnai, offer amazing mountain routes and views.</p>
+            </div>
+            <img src="Eiffel-Tower-Paris-resized.jpg" alt="effel tower">
+        </div>
+
+        <div class="card">
+            <div class="text">
+                <h3>Kandariya Mahadeva Temple</h3>
+                <p>Kandariya Mahadeva Temple.</p>
+            </div>
+            <img src="download (1).jpg" alt="effel tower">
+        </div>
+
+        <div class="card">
+            <div class="text">
+                <h3>Eiffel-Tower-Paris</h3>
+                <p>Panoramic desert views from Dahab’s mountains make hiking unforgettable.</p>
+            </div>
+            <img src="Eiffel-Tower-Paris-resized.jpg" alt="effel tower">
+        </div>
+
+        <div class="card">
+            <div class="text">
+                <h3>Pyramid of Khufu </h3>
+                <p> Pyramid of Khufu (Cheops) – the largest of the three pyramids at Giza
+
+🌍 One of the Seven Wonders of the Ancient World.</p>
+            </div>
+            <img src="download.jpg" alt="effel tower">
+        </div>
+            </div>
+            <img
