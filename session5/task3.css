@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  margin-top: 100px;
+  background-color: #e3f2fd;
+}
+
+.rocket {
+  font-size: 120px;
+  transition: transform 1s ease;
+  display: inline-block;
+  /* margin: 40px 0; */
+}
+
+.fly {
+  transform: translateY(-400px);
+}
+
+.btn {
+  font-size: 22px;
+  padding: 12px 30px;
+  border: none;
+  background-color: #0288d1;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{border-radius: 20px;
+background-color: darkgray;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+width: 100px;
+display: flex;
+flex-direction: column;
+height: 300px;}
+
+.light {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #444;
+      transition: background-color 0.3s;
+    }
+
+    /* Fixed top and bottom lights */
+    .redlight{
+      background-color: gray;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    .greenlight {
+        width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: gray;
+    }
+
+    /* Default center light */
+    .yellowlight {
+        width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: gray;
+    }
+
+    /* Media queries to change center light color */
+    @media (max-width: 600px) {
+      .yellowlight {
+        background-color: rgb(238, 234, 17);
+      }
+    }
+
+    @media (min-width: 601px) and (max-width: 1024px) {
+      .greenlight {
+        background-color: rgb(0, 175, 23);
+      }
+    }
+
+    @media (min-width: 1025px) {
+      .redlight{
+        background-color: rgb(255, 0, 0);
+      }
+    }

@@ -1,0 +1,13 @@
+*{padding: 0;
+margin: 0;}
+.log{
+  border: 4px solid darkgray;
+  border-radius: 15px;
+  padding: 80px;
+  /* margin: 100px; */
+  width: 250px;
+  background-color: black;
+place-self:center;
+margin-top: 200px;
+text-align: center;
+}
